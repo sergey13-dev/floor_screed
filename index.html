@@ -1,0 +1,1615 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="shortcut icon" href="images/favicons/favicon.ico">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="48x48" href="images/favicons/favicon-48x48.png">
+    <link rel="manifest" href="images/favicons/manifest.json">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="theme-color" content="#fff">
+    <meta name="application-name" content="My App">
+    <link rel="apple-touch-icon" sizes="57x57" href="images/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="images/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="images/favicons/apple-touch-icon-1024x1024.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="My App">
+    <link rel="icon" type="image/png" sizes="228x228" href="images/favicons/coast-228x228.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="images/favicons/mstile-144x144.png">
+    <meta name="msapplication-config" content="images/favicons/browserconfig.xml">
+    <link rel="yandex-tableau-widget" href="images/favicons/yandex-browser-manifest.json">
+
+    <title>Стяжка пола</title>
+
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <div class="content">
+
+            <header class="header container-fluid">
+
+                <div class="container">
+
+                    <div class="header__top">
+
+                        <a class="logo" href="#">
+                            <picture class="logo__images">
+                                <source srcset="images/header/logo-mobile.svg" alt="mobile" media="(max-width: 400px)">
+                                <img src="images/header/logo.svg" alt="Логотип">
+                            </picture>
+                        </a>
+
+                        <div class="header__contacts">
+                            <a class="header__contacts-phone" href="tel:+74951396109">+7 (495) 139-61-09</a>
+                            <p class="header__contacts-text">ежедневно с 08:00 до 20:00</p>
+                        </div>
+
+                        <a class="header__social-link" href="#">
+                            <img class="header__social-img" src="images/header/whatsapp.png" alt="whatsapp">
+                            <p class="header__social-text">Whatsapp</p>
+                        </a>
+
+                        <a class="header__link button-orange" href="#call-order">Обратный звонок</a>
+
+                    </div>
+
+                    <nav class="menu">
+
+                        <a class="menu__btn" href="#">
+                            <div class="menu__btn-row"></div>
+                            <div class="menu__btn-row"></div>
+                            <div class="menu__btn-row"></div>
+                        </a>
+
+                        <ul class="menu__list">
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#">Главная</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#our-work">Наши работы</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#cost">Стоимость</a>
+                            </li>
+                            <li class="menu__list-item">
+                                <a class="menu__list-link" href="#contacts">Контакты</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+
+                    <div class="header__contents">
+
+                        <div class="header__info">
+
+                            <h1 class="header__title">Идеально <span>ровный</span> пол под покрытие</h1>
+                            <h4 class="header__subtitle">
+                                За 1 день, с немецким оборудованием и официальной гарантией по договору
+                            </h4>
+
+                            <p class="header__info-title">Гарантируем:</p>
+
+                            <div class="header__row">
+
+                                <div class="header__desc header__desc--one wow animate__animated animate__backInLeft">
+                                    <img class="header__desc-img" src="images/header/icon-1.svg"
+                                        alt="Ровную поверхность">
+                                    <p class="header__desc-text">Ровную поверхность</p>
+                                </div>
+
+                                <div class="header__desc header__desc--two wow animate__animated animate__backInLeft">
+                                    <img class="header__desc-img" src="images/header/icon-2.svg"
+                                        alt="Сохранность вашим нервам">
+                                    <p class="header__desc-text">Сохранность вашим нервам</p>
+                                </div>
+
+                                <div class="header__desc header__desc--three wow animate__animated animate__backInLeft">
+                                    <img class="header__desc-img" src="images/header/icon-3.svg"
+                                        alt="Уважение к Вашему времени">
+                                    <p class="header__desc-text">Уважение к Вашему времени</p>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div class="header__box">
+
+                            <div class="header__column">
+                                <p class="header__column-text">
+                                    Рассчитайте стоимость стяжки без выезда специалиста прямо сейчас
+                                </p>
+                                <a class="header__column-link button-orange" href="#cost-calculation">
+                                    Предварительный <br> расчет стоимости
+                                </a>
+                            </div>
+
+                            <img class="header__working" src="images/header/working.png" alt="working">
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </header>
+
+
+
+            <section class="experts container-fluid">
+
+                <div class="container">
+
+                    <div class="experts__top wow animate__animated animate__backInRight">
+
+                        <div class="experts__top-wrap">
+
+                            <img class="experts__top-img" src="images/experts/icon.svg" alt="icon">
+                            <p class="experts__top-text">
+                                Выполняем от <span>50м<sup>2</sup></span> до <span>800м<sup>2</sup></span> в день
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                    <div class="experts__wrap">
+
+                        <h3 class="experts__title title wow animate__animated animate__zoomInDown">
+                            Мы <span>эксперты</span> в нише полусухой стяжки пола
+                        </h3>
+
+                        <div class="experts__info">
+
+                            <p class="experts__info-text">
+                                Mы - oднa из пepвыx кoмпaний в Mocквe, нaчaвшиx пpeдocтaвлять уcлуги стяжки пола
+                                полусухим
+                                способом.
+                            </p>
+
+                            <p class="experts__info-text">
+                                Собственное оборудование, бригады работающие на постоянной основе, большой опыт работы,
+                                гибкий подход к каждому клиенту,
+                                гарантия, работа по договору, персональный менеджер, консультации до и после
+                                осуществления
+                                всего комплекса работ.
+                            </p>
+
+                            <p class="experts__info-text">
+                                Мы работаем для того чтобы вы остались довольны.
+                            </p>
+
+                            <div class="experts__inner">
+                                <div class="experts__item">
+                                    <p class="experts__item-number">5</p>
+                                    <p class="experts__item-text">лет работы</p>
+                                </div>
+                                <div class="experts__item">
+                                    <p class="experts__item-number">700+</p>
+                                    <p class="experts__item-text">завершенных объектов</p>
+                                </div>
+                                <div class="experts__item">
+                                    <p class="experts__item-number">3</p>
+                                    <p class="experts__item-text">года гарантии</p>
+                                </div>
+                            </div>
+
+                            <div class="experts__contacts">
+                                <p class="experts__contacts-title">
+                                    По любым возникающим у Вас вопросам, смело звоните нам:
+                                </p>
+                                <a class="experts__contacts-link" href="tel:+74951396109">+7 (495) 139-61-09</a>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="equipment">
+
+                <div class="container">
+
+                    <h3 class="equipment__title title wow animate__animated animate__zoomInDown">ТОЛЬКО
+                        <span>ЛУЧШИЕ</span> МАТЕРИАЛЫ и оборудование</h3>
+
+                    <p class="equipment__subtitle">
+                        Мы не экономим на материалах и оборудовании, поскольку знаем, что это скажется на качестве и
+                        долговечности покрытия.
+                    </p>
+
+                    <div class="equipment__inner">
+
+                        <img class="equipment__images" src="images/equipment/equipment-bg.jpg" alt="оборудование">
+
+                        <div class="equipment__item equipment__item--one wow animate__animated animate__backInDown">
+                            <p class="equipment__item-title">Пнeвмoнaгнeтaтeль</p>
+                            <p class="equipment__item-info">Putzmeister 740</p>
+                        </div>
+
+                        <div class="equipment__item equipment__item--two wow animate__animated animate__backInRight">
+                            <p class="equipment__item-title">Eвpoцeмeнт M500</p>
+                        </div>
+
+                        <div class="equipment__item equipment__item--three wow animate__animated animate__backInLeft">
+                            <p class="equipment__item-title">Промытый песок</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+
+            <section class="cost" id="cost">
+
+                <div class="container">
+
+                    <h3 class="cost__title title wow animate__animated animate__zoomInDown"><span>СТОИМОСТЬ</span>
+                        ПОЛУСУХОЙ СТЯЖКИ ПОЛА</h3>
+
+                    <div class="cost__inner">
+
+                        <div class="cost__item cost__item--one wow animate__animated animate__zoomInDown">
+                            <div class="cost__top">
+                                <p class="cost__top-text">
+                                    <span>СТАНДАРТНАЯ</span> ПОЛУСУХАЯ СТЯЖКА
+                                </p>
+                            </div>
+
+                            <img class="cost__images" src="images/cost/cost-item-1.jpg"
+                                alt="СТАНДАРТНАЯ ПОЛУСУХАЯ СТЯЖКА">
+
+                            <div class="cost__desc column-height">
+                                <ul class="cost__list">
+                                    <li class="cost__list-item">Толщина слоя: от 50 мм</li>
+                                    <li class="cost__list-item">Сроки: от 100м<sup>2</sup> за смену</li>
+                                    <li class="cost__list-item">Гарантия: 5 лет</li>
+                                </ul>
+                                <p class="cost__price">oт 450 ₽/м<sup>2</sup></p>
+                            </div>
+
+                        </div>
+
+                        <div class="cost__item cost__item--two wow animate__animated animate__zoomInDown">
+                            <div class="cost__top">
+                                <p class="cost__top-text">
+                                    <span>ПОЛИСТИРОЛЬНАЯ</span> ПОЛУСУХАЯ СТЯЖКА
+                                </p>
+                            </div>
+
+                            <img class="cost__images" src="images/cost/cost-item-2.jpg"
+                                alt="ПОЛИСТИРОЛЬНАЯ ПОЛУСУХАЯ СТЯЖКА">
+
+                            <div class="cost__desc column-height">
+                                <ul class="cost__list">
+                                    <li class="cost__list-item">Толщина слоя: от 60 мм</li>
+                                    <li class="cost__list-item">Сроки: от 130м<sup>2</sup> за смену</li>
+                                    <li class="cost__list-item">Гарантия: 7 лет</li>
+                                </ul>
+                                <p class="cost__price">oт 500 ₽/м<sup>2</sup></p>
+                            </div>
+
+                        </div>
+
+                        <div class="cost__item cost__item--three wow animate__animated animate__zoomInDown">
+                            <div class="cost__top">
+                                <p class="cost__top-text">
+                                    <span>АРМИРОВАННАЯ</span> ПОЛУСУХАЯ СТЯЖКА
+                                </p>
+                            </div>
+
+                            <img class="cost__images" src="images/cost/cost-item-3.jpg"
+                                alt="АРМИРОВАННАЯ ПОЛУСУХАЯ СТЯЖКА">
+
+                            <div class="cost__desc column-height">
+                                <ul class="cost__list">
+                                    <li class="cost__list-item">Толщина слоя: от 70 мм</li>
+                                    <li class="cost__list-item">Сроки: от 150м<sup>2</sup> за смену</li>
+                                    <li class="cost__list-item">Гарантия: 8 лет</li>
+                                </ul>
+                                <p class="cost__price">oт 600 ₽/м<sup>2</sup></p>
+                            </div>
+
+                        </div>
+
+                        <div class="cost__item cost__item--four wow animate__animated animate__zoomInDown">
+                            <div class="cost__top">
+                                <p class="cost__top-text">
+                                    СТЯЖКА <span>ТЕПЛОГО ПОЛА</span>
+                                </p>
+                            </div>
+
+                            <img class="cost__images" src="images/cost/cost-item-4.jpg" alt="СТЯЖКА ТЕПЛОГО ПОЛА">
+
+                            <div class="cost__desc column-height">
+                                <ul class="cost__list">
+                                    <li class="cost__list-item">Толщина слоя: от 90 мм</li>
+                                    <li class="cost__list-item">Сроки: от 200м<sup>2</sup> за смену</li>
+                                    <li class="cost__list-item">Гарантия: 10 лет</li>
+                                </ul>
+                                <p class="cost__price">oт 750 ₽/м<sup>2</sup></p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="work-cost">
+
+                <div class="container">
+
+                    <h3 class="work-cost__title title wow animate__animated animate__zoomInDown">
+                        В <span>СТОИМОСТЬ РАБОТ</span> УЖЕ ВХОДИТ
+                    </h3>
+
+                    <div class="work-cost__inner">
+
+                        <div class="work-cost__item work-cost__item--one wow animate__animated animate__backInLeft">
+                            <p class="work-cost__item-title">Материалы и доставка</p>
+                            <img class="work-cost__item-img" src="images/work-cost/item-1.png"
+                                alt="Материалы и доставка">
+                            <p class="work-cost__item-subtitle">
+                                Строительные смеси и специальные добавки
+                            </p>
+                        </div>
+
+                        <div class="work-cost__item work-cost__item--two wow animate__animated animate__backInLeft">
+                            <p class="work-cost__item-title">Укладка стяжки</p>
+                            <img class="work-cost__item-img" src="images/work-cost/item-2.png" alt="Укладка стяжки">
+                            <p class="work-cost__item-subtitle">
+                                Полный комплекс работ под ключ
+                            </p>
+                        </div>
+
+                        <div class="work-cost__item work-cost__item--three wow animate__animated animate__backInRight">
+                            <p class="work-cost__item-title">Техника и доставка</p>
+                            <img class="work-cost__item-img" src="images/work-cost/item-3.png" alt="Техника и доставка">
+                            <p class="work-cost__item-subtitle">
+                                Сами доставим, разгрузим и поднимем на этаж
+                            </p>
+                        </div>
+
+                        <div class="work-cost__item work-cost__item--four wow animate__animated animate__backInRight">
+                            <p class="work-cost__item-title">Уборка</p>
+                            <img class="work-cost__item-img" src="images/work-cost/item-4.png" alt="Уборка">
+                            <p class="work-cost__item-subtitle">
+                                После монтажа убираем за собой весь мусор
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="work-cost__calculator wow animate__animated animate__zoomInUp">
+                        <img class="work-cost__calculator-img" src="images/work-cost/calculator.svg" alt="calculator">
+                        <p class="work-cost__calculator-text">
+                            <span>Рассчитайте стоимость стяжки</span>
+                            за 1 минуту для вашего помещения
+                            И <span>получите скидку 10%,</span> только при расчете онлайн.
+                        </p>
+                        <a class="work-cost__calculator-link button-orange" href="#cost-calculation">Расчёт стоимости со
+                            скидкой 10%</a>
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+
+            <section class="additionally">
+
+                <div class="container">
+
+                    <h3 class="additionally__title title wow animate__animated animate__zoomInDown">
+                        ПРИ <span>НЕОБХОДИМОСТИ</span>
+                    </h3>
+
+                    <div class="additionally__inner">
+
+                        <div class="additionally__desc wow animate__animated animate__backInLeft">
+
+                            <p class="additionally__desc-text">
+                                Сразу проведем монтаж <span>гидроизоляции</span>,
+                                например в ванной или <span>утеплим</span> пол в комнате.
+                            </p>
+
+                            <p class="additionally__desc-text">
+                                Дадим рекомендации <span>по укладке проводов,</span>
+                                если они будут проходить по полу.
+                                Вы получите наиболее оптимальный вариант укладки электрики.
+                                Это даст минимальную толщину будущей стяжки.
+                                И вы получите <span>недорогую полусухую стяжку</span> в Москве.
+                            </p>
+
+                            <div class="additionally__questions">
+                                <p class="additionally__questions-text">Ответим на любой вопрос</p>
+                                <a class="additionally__questions-link button-orange" href="#call-order">Задать
+                                    вопрос</a>
+                            </div>
+
+                        </div>
+
+                        <div class="additionally__info wow animate__animated animate__backInRight">
+
+                            <div class="additionally__item">
+                                <img class="additionally__item-img" src="images/additionally/additionally-item.png"
+                                    alt="Напольное покрытие">
+
+                                <ul class="additionally__list">
+                                    <li class="additionally__list-item additionally__list-item--one">Напольное покрытие
+                                    </li>
+                                    <li class="additionally__list-item additionally__list-item--two">Стяжка пола</li>
+                                    <li class="additionally__list-item additionally__list-item--three">
+                                        Теплозвукоизоляция</li>
+                                    <li class="additionally__list-item additionally__list-item--four">Гидроизоляция</li>
+                                </ul>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <section class="our-work" id="our-work">
+
+                <div class="container">
+
+                    <h3 class="our-work__title title wow animate__animated animate__zoomInDown">НАШИ <span>РАБОТЫ</span>
+                    </h3>
+
+                    <div class="our-work__tabs-wrapper tabs-wrapper">
+
+                        <div class="our-work__tabs tabs">
+                            <a class="our-work__tab our-work__tab--active tab tab--active" href="#tab-1">
+                                Квартиры
+                            </a>
+                            <a class="our-work__tab tab" href="#tab-2">Коттеджи</a>
+                            <a class="our-work__tab tab" href="#tab-3">Коммерческие предложения</a>
+                        </div>
+
+                    </div>
+
+
+                    <div class="tabs-container">
+
+                        <div id="tab-1"
+                            class="our-work__tabs-content our-work__tabs-content--active tabs-content tabs-content--active">
+
+                            <div class="our-work__slider">
+
+                                <div class="our-work__item">
+
+                                    <div class="our-work__picture">
+                                        <img class="our-work__img" src="images/our-work/slider-img-1.jpg"
+                                            alt="slider-img-1">
+                                        <img class="our-work__img" src="images/our-work/slider-img-2.jpg"
+                                            alt="slider-img-2">
+                                        <img class="our-work__img" src="images/our-work/slider-img-3.jpg"
+                                            alt="slider-img-3">
+                                        <img class="our-work__img" src="images/our-work/slider-img-4.jpg"
+                                            alt="slider-img-4">
+                                    </div>
+
+                                    <div class="our-work__desc">
+                                        <p class="our-work__desc-title">
+                                            Стяжка пола в 2-х комнатной квартире в ЖК Павловский квартал
+                                        </p>
+
+                                        <div class="our-work__info">
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/area.svg"
+                                                        alt="Площадь:">
+                                                    <p class="our-work__row-text">Площадь:</p>
+                                                </div>
+                                                <p class="our-work__row-right">62м<sup>2</sup> / 60-70 мм</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/date.svg"
+                                                        alt="Дата:">
+                                                    <p class="our-work__row-text">Дата:</p>
+                                                </div>
+                                                <p class="our-work__row-right">15.12.2021</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/terms.svg"
+                                                        alt="Сроки:">
+                                                    <p class="our-work__row-text">Сроки:</p>
+                                                </div>
+                                                <p class="our-work__row-right">1 день</p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="our-work__bottom">
+                                            <a class="our-work__bottom-btn button-orange"
+                                                href="#cost-calculation">Заказать
+                                                расчет</a>
+                                            <a class="our-work__bottom-link" href="tel:+74951396109">
+                                                +7 (495) 139-61-09
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="our-work__item">
+
+                                    <div class="our-work__picture">
+                                        <img class="our-work__img" src="images/our-work/slider-img-4.jpg"
+                                            alt="slider-img-4">
+                                        <img class="our-work__img" src="images/our-work/slider-img-1.jpg"
+                                            alt="slider-img-1">
+                                        <img class="our-work__img" src="images/our-work/slider-img-3.jpg"
+                                            alt="slider-img-3">
+                                        <img class="our-work__img" src="images/our-work/slider-img-2.jpg"
+                                            alt="slider-img-2">
+                                    </div>
+
+                                    <div class="our-work__desc">
+                                        <p class="our-work__desc-title">
+                                            Стяжка пола в 2-х комнатной квартире в ЖК Павловский квартал
+                                        </p>
+
+                                        <div class="our-work__info">
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/area.svg"
+                                                        alt="Площадь:">
+                                                    <p class="our-work__row-text">Площадь:</p>
+                                                </div>
+                                                <p class="our-work__row-right">62м<sup>2</sup> / 60-70 мм</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/date.svg"
+                                                        alt="Дата:">
+                                                    <p class="our-work__row-text">Дата:</p>
+                                                </div>
+                                                <p class="our-work__row-right">15.12.2021</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/terms.svg"
+                                                        alt="Сроки:">
+                                                    <p class="our-work__row-text">Сроки:</p>
+                                                </div>
+                                                <p class="our-work__row-right">1 день</p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="our-work__bottom">
+                                            <a class="our-work__bottom-btn button-orange"
+                                                href="#cost-calculation">Заказать
+                                                расчет</a>
+                                            <a class="our-work__bottom-link" href="tel:+74951396109">
+                                                +7 (495) 139-61-09
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="our-work__item">
+
+                                    <div class="our-work__picture">
+
+                                        <img class="our-work__img" src="images/our-work/slider-img-4.jpg"
+                                            alt="slider-img-4">
+                                        <img class="our-work__img" src="images/our-work/slider-img-3.jpg"
+                                            alt="slider-img-3">
+
+                                        <img class="our-work__img" src="images/our-work/slider-img-2.jpg"
+                                            alt="slider-img-2">
+                                        <img class="our-work__img" src="images/our-work/slider-img-1.jpg"
+                                            alt="slider-img-1">
+                                    </div>
+
+                                    <div class="our-work__desc">
+                                        <p class="our-work__desc-title">
+                                            Стяжка пола в 2-х комнатной квартире в ЖК Павловский квартал
+                                        </p>
+
+                                        <div class="our-work__info">
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/area.svg"
+                                                        alt="Площадь:">
+                                                    <p class="our-work__row-text">Площадь:</p>
+                                                </div>
+                                                <p class="our-work__row-right">62м<sup>2</sup> / 60-70 мм</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/date.svg"
+                                                        alt="Дата:">
+                                                    <p class="our-work__row-text">Дата:</p>
+                                                </div>
+                                                <p class="our-work__row-right">15.12.2021</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/terms.svg"
+                                                        alt="Сроки:">
+                                                    <p class="our-work__row-text">Сроки:</p>
+                                                </div>
+                                                <p class="our-work__row-right">1 день</p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="our-work__bottom">
+                                            <a class="our-work__bottom-btn button-orange"
+                                                href="#cost-calculation">Заказать
+                                                расчет</a>
+                                            <a class="our-work__bottom-link" href="tel:+74951396109">
+                                                +7 (495) 139-61-09
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div id="tab-2" class="our-work__tabs-content tabs-content">
+
+                            <div class="our-work__slider">
+
+                                <div class="our-work__item">
+
+                                    <div class="our-work__picture">
+                                        <img class="our-work__img" src="images/our-work/slider-img-1.jpg"
+                                            alt="slider-img-1">
+                                        <img class="our-work__img" src="images/our-work/slider-img-2.jpg"
+                                            alt="slider-img-2">
+                                        <img class="our-work__img" src="images/our-work/slider-img-3.jpg"
+                                            alt="slider-img-3">
+                                        <img class="our-work__img" src="images/our-work/slider-img-4.jpg"
+                                            alt="slider-img-4">
+                                    </div>
+
+                                    <div class="our-work__desc">
+                                        <p class="our-work__desc-title">
+                                            Стяжка пола в 2-х комнатной квартире в ЖК Павловский квартал
+                                        </p>
+
+                                        <div class="our-work__info">
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/area.svg"
+                                                        alt="Площадь:">
+                                                    <p class="our-work__row-text">Площадь:</p>
+                                                </div>
+                                                <p class="our-work__row-right">100м<sup>2</sup> / 60-70 мм</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/date.svg"
+                                                        alt="Дата:">
+                                                    <p class="our-work__row-text">Дата:</p>
+                                                </div>
+                                                <p class="our-work__row-right">15.12.2021</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/terms.svg"
+                                                        alt="Сроки:">
+                                                    <p class="our-work__row-text">Сроки:</p>
+                                                </div>
+                                                <p class="our-work__row-right">1 день</p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="our-work__bottom">
+                                            <a class="our-work__bottom-btn button-orange"
+                                                href="#cost-calculation">Заказать
+                                                расчет</a>
+                                            <a class="our-work__bottom-link" href="tel:+74951396109">
+                                                +7 (495) 139-61-09
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="our-work__item">
+
+                                    <div class="our-work__picture">
+                                        <img class="our-work__img" src="images/our-work/slider-img-4.jpg"
+                                            alt="slider-img-4">
+                                        <img class="our-work__img" src="images/our-work/slider-img-1.jpg"
+                                            alt="slider-img-1">
+                                        <img class="our-work__img" src="images/our-work/slider-img-3.jpg"
+                                            alt="slider-img-3">
+                                        <img class="our-work__img" src="images/our-work/slider-img-2.jpg"
+                                            alt="slider-img-2">
+                                    </div>
+
+                                    <div class="our-work__desc">
+                                        <p class="our-work__desc-title">
+                                            Стяжка пола в 2-х комнатной квартире в ЖК Павловский квартал
+                                        </p>
+
+                                        <div class="our-work__info">
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/area.svg"
+                                                        alt="Площадь:">
+                                                    <p class="our-work__row-text">Площадь:</p>
+                                                </div>
+                                                <p class="our-work__row-right">100м<sup>2</sup> / 60-70 мм</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/date.svg"
+                                                        alt="Дата:">
+                                                    <p class="our-work__row-text">Дата:</p>
+                                                </div>
+                                                <p class="our-work__row-right">15.12.2021</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/terms.svg"
+                                                        alt="Сроки:">
+                                                    <p class="our-work__row-text">Сроки:</p>
+                                                </div>
+                                                <p class="our-work__row-right">1 день</p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="our-work__bottom">
+                                            <a class="our-work__bottom-btn button-orange"
+                                                href="#cost-calculation">Заказать
+                                                расчет</a>
+                                            <a class="our-work__bottom-link" href="tel:+74951396109">
+                                                +7 (495) 139-61-09
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="our-work__item">
+
+                                    <div class="our-work__picture">
+
+                                        <img class="our-work__img" src="images/our-work/slider-img-4.jpg"
+                                            alt="slider-img-4">
+                                        <img class="our-work__img" src="images/our-work/slider-img-3.jpg"
+                                            alt="slider-img-3">
+
+                                        <img class="our-work__img" src="images/our-work/slider-img-2.jpg"
+                                            alt="slider-img-2">
+                                        <img class="our-work__img" src="images/our-work/slider-img-1.jpg"
+                                            alt="slider-img-1">
+                                    </div>
+
+                                    <div class="our-work__desc">
+                                        <p class="our-work__desc-title">
+                                            Стяжка пола в 2-х комнатной квартире в ЖК Павловский квартал
+                                        </p>
+
+                                        <div class="our-work__info">
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/area.svg"
+                                                        alt="Площадь:">
+                                                    <p class="our-work__row-text">Площадь:</p>
+                                                </div>
+                                                <p class="our-work__row-right">100м<sup>2</sup> / 60-70 мм</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/date.svg"
+                                                        alt="Дата:">
+                                                    <p class="our-work__row-text">Дата:</p>
+                                                </div>
+                                                <p class="our-work__row-right">15.12.2021</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/terms.svg"
+                                                        alt="Сроки:">
+                                                    <p class="our-work__row-text">Сроки:</p>
+                                                </div>
+                                                <p class="our-work__row-right">1 день</p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="our-work__bottom">
+                                            <a class="our-work__bottom-btn button-orange"
+                                                href="#cost-calculation">Заказать
+                                                расчет</a>
+                                            <a class="our-work__bottom-link" href="tel:+74951396109">
+                                                +7 (495) 139-61-09
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                        <div id="tab-3" class="our-work__tabs-content tabs-content">
+
+                            <div class="our-work__slider">
+
+                                <div class="our-work__item">
+
+                                    <div class="our-work__picture">
+                                        <img class="our-work__img" src="images/our-work/slider-img-1.jpg"
+                                            alt="slider-img-1">
+                                        <img class="our-work__img" src="images/our-work/slider-img-2.jpg"
+                                            alt="slider-img-2">
+                                        <img class="our-work__img" src="images/our-work/slider-img-3.jpg"
+                                            alt="slider-img-3">
+                                        <img class="our-work__img" src="images/our-work/slider-img-4.jpg"
+                                            alt="slider-img-4">
+                                    </div>
+
+                                    <div class="our-work__desc">
+                                        <p class="our-work__desc-title">
+                                            Стяжка пола в 2-х комнатной квартире в ЖК Павловский квартал
+                                        </p>
+
+                                        <div class="our-work__info">
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/area.svg"
+                                                        alt="Площадь:">
+                                                    <p class="our-work__row-text">Площадь:</p>
+                                                </div>
+                                                <p class="our-work__row-right">250м<sup>2</sup> / 60-70 мм</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/date.svg"
+                                                        alt="Дата:">
+                                                    <p class="our-work__row-text">Дата:</p>
+                                                </div>
+                                                <p class="our-work__row-right">15.12.2021</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/terms.svg"
+                                                        alt="Сроки:">
+                                                    <p class="our-work__row-text">Сроки:</p>
+                                                </div>
+                                                <p class="our-work__row-right">5 дней</p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="our-work__bottom">
+                                            <a class="our-work__bottom-btn button-orange"
+                                                href="#cost-calculation">Заказать
+                                                расчет</a>
+                                            <a class="our-work__bottom-link" href="tel:+74951396109">
+                                                +7 (495) 139-61-09
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="our-work__item">
+
+                                    <div class="our-work__picture">
+                                        <img class="our-work__img" src="images/our-work/slider-img-4.jpg"
+                                            alt="slider-img-4">
+                                        <img class="our-work__img" src="images/our-work/slider-img-1.jpg"
+                                            alt="slider-img-1">
+                                        <img class="our-work__img" src="images/our-work/slider-img-3.jpg"
+                                            alt="slider-img-3">
+                                        <img class="our-work__img" src="images/our-work/slider-img-2.jpg"
+                                            alt="slider-img-2">
+                                    </div>
+
+                                    <div class="our-work__desc">
+                                        <p class="our-work__desc-title">
+                                            Стяжка пола в 2-х комнатной квартире в ЖК Павловский квартал
+                                        </p>
+
+                                        <div class="our-work__info">
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/area.svg"
+                                                        alt="Площадь:">
+                                                    <p class="our-work__row-text">Площадь:</p>
+                                                </div>
+                                                <p class="our-work__row-right">250м<sup>2</sup> / 60-70 мм</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/date.svg"
+                                                        alt="Дата:">
+                                                    <p class="our-work__row-text">Дата:</p>
+                                                </div>
+                                                <p class="our-work__row-right">15.12.2021</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/terms.svg"
+                                                        alt="Сроки:">
+                                                    <p class="our-work__row-text">Сроки:</p>
+                                                </div>
+                                                <p class="our-work__row-right">5 дней</p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="our-work__bottom">
+                                            <a class="our-work__bottom-btn button-orange"
+                                                href="#cost-calculation">Заказать
+                                                расчет</a>
+                                            <a class="our-work__bottom-link" href="tel:+74951396109">
+                                                +7 (495) 139-61-09
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="our-work__item">
+
+                                    <div class="our-work__picture">
+
+                                        <img class="our-work__img" src="images/our-work/slider-img-4.jpg"
+                                            alt="slider-img-4">
+                                        <img class="our-work__img" src="images/our-work/slider-img-3.jpg"
+                                            alt="slider-img-3">
+
+                                        <img class="our-work__img" src="images/our-work/slider-img-2.jpg"
+                                            alt="slider-img-2">
+                                        <img class="our-work__img" src="images/our-work/slider-img-1.jpg"
+                                            alt="slider-img-1">
+                                    </div>
+
+                                    <div class="our-work__desc">
+                                        <p class="our-work__desc-title">
+                                            Стяжка пола в 2-х комнатной квартире в ЖК Павловский квартал
+                                        </p>
+
+                                        <div class="our-work__info">
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/area.svg"
+                                                        alt="Площадь:">
+                                                    <p class="our-work__row-text">Площадь:</p>
+                                                </div>
+                                                <p class="our-work__row-right">250м<sup>2</sup> / 60-70 мм</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/date.svg"
+                                                        alt="Дата:">
+                                                    <p class="our-work__row-text">Дата:</p>
+                                                </div>
+                                                <p class="our-work__row-right">15.12.2021</p>
+                                            </div>
+
+                                            <div class="our-work__row">
+                                                <div class="our-work__row-left">
+                                                    <img class="our-work__row-img" src="images/our-work/terms.svg"
+                                                        alt="Сроки:">
+                                                    <p class="our-work__row-text">Сроки:</p>
+                                                </div>
+                                                <p class="our-work__row-right">5 дней</p>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="our-work__bottom">
+                                            <a class="our-work__bottom-btn button-orange"
+                                                href="#cost-calculation">Заказать
+                                                расчет</a>
+                                            <a class="our-work__bottom-link" href="tel:+74951396109">
+                                                +7 (495) 139-61-09
+                                            </a>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <div class="feedback">
+
+                <div class="container">
+
+                    <div class="feedback__inner wow animate__animated animate__zoomInDown">
+
+                        <div class="feedback__item">
+                            <p class="feedback__item-text">
+                                Убедитесь в нашей <span>эксперности</span> лично, просто позвонив нам:
+                            </p>
+                            <a class="feedback__item-phone" href="tel:+74951396109">+7 (495) 139-61-09</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+            <section class="advantages">
+
+                <div class="container">
+
+                    <h3 class="advantages__title title wow animate__animated animate__zoomInDown">
+                        КАК МЫ <span>РАБОТАЕМ</span>
+                    </h3>
+
+                    <div class="advantages__inner">
+
+                        <div class="advantages__item">
+                            <img class="advantages__item-img" src="images/advantages/icon-1.png"
+                                alt="Вы оставляете заявку">
+                            <p class="advantages__item-text">Вы оставляете заявку</p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <img class="advantages__item-img" src="images/advantages/icon-2.png"
+                                alt="Бесплатный выезд замерщика">
+                            <p class="advantages__item-text">Бесплатный выезд замерщика</p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <img class="advantages__item-img" src="images/advantages/icon-3.png"
+                                alt="Согласование стоимости и сроков">
+                            <p class="advantages__item-text">Согласование стоимости и сроков</p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <img class="advantages__item-img" src="images/advantages/icon-4.png"
+                                alt="Выезд бригады, заключение договора, аванс">
+                            <p class="advantages__item-text">Выезд бригады, заключение договора, аванс</p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <img class="advantages__item-img" src="images/advantages/icon-5.png" alt="Выполнение работ">
+                            <p class="advantages__item-text">Выполнение работ</p>
+                        </div>
+
+                        <div class="advantages__item">
+                            <img class="advantages__item-img" src="images/advantages/icon-6.png"
+                                alt="Подписание акта, окончательный расчет">
+                            <p class="advantages__item-text">Подписание акта, окончательный расчет</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+
+            <section class="questions">
+
+                <div class="container">
+
+                    <h3 class="questions__title title">Часто задаваемые <span>вопросы</span></h3>
+
+                    <div class="questions__inner">
+
+                        <div class="questions__item wow animate__animated animate__backInLeft">
+
+                            <div class="questions__top">
+                                <p class="questions__top-title">
+                                    Сколько стоит стяжка пола?
+                                </p>
+
+                                <div class="questions__top-img">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                            fill="#FF5B14" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="#FF5B14" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="questions__list">
+                                <p class="questions__list-text">
+                                    Стоимость работ зависит от общей площади и толщины стяжки, высоты подачи раствора
+                                    (этажность), территориального расположения объекта. Для расчета стоимости Вашей
+                                    стяжки свяжитесь с нами по телефону или оставьте заявку. Минимальный заказ: 30 000
+                                    рублей.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="questions__item wow animate__animated animate__backInRight">
+
+                            <div class="questions__top">
+                                <p class="questions__top-title">
+                                    Сколько по времени займет работа?
+                                </p>
+
+                                <div class="questions__top-img">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                            fill="#FF5B14" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="#FF5B14" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="questions__list">
+                                <p class="questions__list-text">
+                                    Ходить по полусухой стяжке можно через 12 часов после монтажа. К укладке плитки она
+                                    готова через 72 часа, а ламинат можно стелить через 20-25 дней.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="questions__item wow animate__animated animate__backInLeft">
+
+                            <div class="questions__top">
+                                <p class="questions__top-title">
+                                    Каким материалом работаете?
+                                </p>
+
+                                <div class="questions__top-img">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                            fill="#FF5B14" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="#FF5B14" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="questions__list">
+                                <p class="questions__list-text">
+                                    Сухая стяжка полов проводится без применения растворов, для выравнивания
+                                    предназначены плиты из гипсоволокна, у которых есть гидробарьер. На замену плитам
+                                    может использоваться фанера или ДСП, но материалы должны быть водостойкими. Для
+                                    сухих стяжек применяется засыпка, а среди возможных материалов выделяют:
+                                    Керамзит, Перлитовый песок, Вермикулит, Доменный шлак.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="questions__item wow animate__animated animate__backInRight">
+
+                            <div class="questions__top">
+                                <p class="questions__top-title">
+                                    Что делать раньше: стяжку пола или штукатурку стен?
+                                </p>
+
+                                <div class="questions__top-img">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                            fill="#FF5B14" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="#FF5B14" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="questions__list">
+                                <p class="questions__list-text">
+                                    Лучше штукатурку стен, чтобы потом уделить больше времени полу.
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="questions__item wow animate__animated animate__backInLeft">
+
+                            <div class="questions__top">
+                                <p class="questions__top-title">
+                                    Кто приедет после заказа?
+                                </p>
+
+                                <div class="questions__top-img">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                            fill="#FF5B14" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="#FF5B14" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="questions__list">
+                                <p class="questions__list-text">
+                                    После заказа приезжает замерщик с оборудованием
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="questions__item wow animate__animated animate__backInRight">
+
+                            <div class="questions__top">
+                                <p class="questions__top-title">
+                                    Что входит в стоимость?
+                                </p>
+
+                                <div class="questions__top-img">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                            fill="#FF5B14" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="#FF5B14" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="questions__list">
+                                <p class="questions__list-text">
+                                    Доставка, укладка, выравнивание пола, дополнительная сушка и работа
+                                </p>
+                            </div>
+
+                        </div>
+
+                        <div class="questions__item wow animate__animated animate__backInLeft">
+
+                            <div class="questions__top">
+                                <p class="questions__top-title">
+                                    В каких городах оказываете услуги?
+                                </p>
+
+                                <div class="questions__top-img">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M16 9L0 9L0 7L16 7V9Z"
+                                            fill="#FF5B14" />
+                                        <path fill-rule="evenodd" clip-rule="evenodd"
+                                            d="M9 2.38498e-08L9 16L7 16L7 0L9 2.38498e-08Z" fill="#FF5B14" />
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <div class="questions__list">
+                                <p class="questions__list-text">
+                                    Во всех городах России
+                                </p>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+            <div class="call-back">
+
+                <div class="container">
+
+                    <div class="call-back__wrap wow animate__animated animate__zoomInDown">
+
+                        <div class="call-back__info">
+                            <p class="call-back__info-title">ОСТАЛИСЬ ВОПРОСЫ?</p>
+                            <p class="call-back__info-subtitle">
+                                Оставьте ваш номер телефона, мы перезвоним и согласуем все вопросы.
+                            </p>
+                            <form class="call-back__form">
+                                <input type="text" class="call-back__form-phone" placeholder="Ваш номер">
+                                <button class="call-back__form-btn button-orange" type="submit" href="#call-order">Жду
+                                    звонка</button>
+                            </form>
+                            <p class="call-back__info-text">или позвоните нам</p>
+                            <a class="call-back__info-link" href="tel:+74951396109">+7 (495) 139-61-09</a>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <div class="contacts" id="contacts">
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d574088.3200314976!2d37.2481117257199!3d55.801355307370315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54afc73d4b0c9%3A0x3d44d6cc5757cf4c!2z0JzQvtGB0LrQstCwLCDQoNC-0YHRgdC40Y8!5e0!3m2!1sru!2sua!4v1625993738135!5m2!1sru!2sua"
+                    width="100%" style="border:0;" allowfullscreen="" loading="lazy">
+                </iframe>
+
+                <div class="container">
+
+                    <div class="contacts__wrap wow animate__animated animate__backInLeft">
+
+                        <div class="contacts__inner">
+
+                            <div class="contacts__item">
+                                <h3 class="contacts__item-title">Наши <span>контакты</span></h3>
+
+                                <div class="contacts__address">
+                                    <p class="contacts__address-title">Адрес:</p>
+                                    <p class="contacts__address-text">
+                                        г. Москва, Дмитровское шоссе, дом 71Б, этаж 2, комната 21, офис 4в
+                                    </p>
+                                </div>
+
+                                <div class="contacts__mail">
+                                    <p class="contacts__mail-title">Е-mail:</p>
+                                    <a class="contacts__mail-link" href="mailto:ooomsc13@mail.ru">ooomsc13@mail.ru</a>
+                                </div>
+
+                                <div class="contacts__phone">
+                                    <p class="contacts__phone-title">Телефон:</p>
+                                    <a class="contacts__phone-link" href="tel:+74951396109">+7 (495) 139-61-09</a>
+                                    <p class="contacts__phone-subtitle">ежедневно с 08:00 до 20:00</p>
+                                </div>
+
+                                <div class="contacts__social">
+                                    <a class="contacts__social-link" href="#">
+                                        <img class="contacts__social-img" src="images/contacts/whatsapp.png"
+                                            alt="whatsapp">
+                                    </a>
+                                    <a class="contacts__social-link" href="#">
+                                        <img class="contacts__social-img" src="images/contacts/telegram.png"
+                                            alt="telegram">
+                                    </a>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer class="footer">
+
+            <div class="container">
+
+                <div class="footer__item">
+
+                    <a class="footer__logo" href="#">
+                        <picture class="footer__logo-images">
+                            <source srcset="images/footer/logo-mobile.svg" alt="mobile" media="(max-width: 450px)">
+                            <img src="images/footer/logo.svg" alt="Логотип">
+                        </picture>
+                    </a>
+
+                    <a class="footer__privacy-policy" href="#">Политика конфиденциальности</a>
+                    <a class="footer__details" href="#">Реквизиты</a>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+    </div>
+
+    <div class="button__up">
+        <img class="button__up-img" src="images/icon/button_up.svg" alt="Вверх">
+    </div>
+
+    <div id="cost-calculation" class="cost-calculation mfp-hide white-popup">
+
+        <div class="cost-calculation__wrap">
+
+            <div class="cost-calculation__inner">
+
+                <p class="cost-calculation__title title-modal">РАСЧЁТ <span>СТОИМОСТИ</span></p>
+                <p class="cost-calculation__subtitle">
+                    Рассчитайте стоимость полусухой стяжки без выезда специалиста
+                </p>
+
+                <form class="cost-calculation__form">
+
+                    <label class="cost-calculation__area-label">
+                        <img class="cost-calculation__phone-img" src="images/mobile/area.svg" alt="area">
+                        <input class="cost-calculation__area" type="text" placeholder="Площадь помещения (м²)">
+                    </label>
+
+                    <label class="cost-calculation__phone-label">
+                        <img class="cost-calculation__phone-img" src="images/mobile/phone.svg" alt="phone">
+                        <input class="cost-calculation__phone" type="text" placeholder="+7 ( --- ) --- -- --">
+                    </label>
+
+                    <button class="cost-calculation__btn button-orange">Рассчитать</button>
+                    <label class="cost-calculation__checkbox-label input-checkbox">
+                        <input class="cost-calculation__checkbox" type="checkbox">
+                        Нажимая “Рассчитать”, Вы даете согласие на обработку персональных данных.
+                    </label>
+                </form>
+
+                <p class="cost-calculation__social-text">
+                    Свяжитесь с нами <br> через мессенджеры
+                </p>
+
+                <div class="cost-calculation__social">
+
+                    <a class="cost-calculation__social-link" href="#">
+                        <img class="cost-calculation__social-img" src="images/mobile/whatsapp.png" alt="whatsapp">
+                    </a>
+                    <a class="cost-calculation__social-link" href="#">
+                        <img class="cost-calculation__social-img" src="images/mobile/telegram.png" alt="telegram">
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="call-order" class="call-order mfp-hide white-popup">
+
+        <div class="call-order__wrap">
+
+            <div class="call-order__inner">
+
+                <p class="call-order__title title-modal">ЗАКАЗ <span>ЗВОНКА</span></p>
+                <p class="call-order__subtitle">
+                    Оставьте свои контакты и мы свяжемся с вами в ближайшее время
+                </p>
+
+                <form class="call-order__form">
+
+                    <label class="call-order__name-label">
+                        <img class="call-order__phone-img" src="images/mobile/name.svg" alt="name">
+                        <input class="call-order__name" type="text" placeholder="Введите имя">
+                    </label>
+
+                    <label class="call-order__phone-label">
+                        <img class="call-order__phone-img" src="images/mobile/phone.svg" alt="phone">
+                        <input class="call-order__phone" type="text" placeholder="+7 ( --- ) --- -- --">
+                    </label>
+
+                    <button class="call-order__btn button-orange">Рассчитать</button>
+                    <label class="call-order__checkbox-label input-checkbox">
+                        <input class="call-order__checkbox" type="checkbox">
+                        Нажимая “Заказать звонок”, Вы даете согласие на обработку персональных данных.
+                    </label>
+                </form>
+
+                <p class="call-order__social-text">
+                    Свяжитесь с нами <br> через мессенджеры
+                </p>
+
+                <div class="call-order__social">
+
+                    <a class="call-order__social-link" href="#">
+                        <img class="call-order__social-img" src="images/mobile/whatsapp.png" alt="whatsapp">
+                    </a>
+                    <a class="call-order__social-link" href="#">
+                        <img class="call-order__social-img" src="images/mobile/telegram.png" alt="telegram">
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+    <script src="js/main.min.js"></script>
+
+</body>
+
+</html>
